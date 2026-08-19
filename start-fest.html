@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
+
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,52 +14,46 @@
       content="Uvítací, seznamovací, školicí a zábavná akce pro prváky na FIT VUT."
     />
 
-    <meta property="og:title" content="Neděle – Start@FIT 2025" />
+    <meta property="og:title" content="Start@FIT 2026" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.startatfit.cz/ctvrtek" />
-    <link rel="canonical" href="https://www.startatfit.cz/ctvrtek" />
+    <meta property="og:url" content="https://www.startatfit.cz/" />
+    <link rel="canonical" href="https://www.startatfit.cz/" />
     <meta
       property="og:image"
       content="https://www.startatfit.cz/img/meta.jpg"
     />
 
-    <title>Neděle – Start@FIT 2026</title>
+    <title>Start@FIT 2026</title>
 
     <link rel="icon" type="image/x-icon" href="img/favicon.png" />
     <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#2596be" />
     <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#2596be" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#2596be" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&family=Exo:wght@300;400;500&display=swap"
+        rel="stylesheet" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-
-    <link href="/assets/css/fontawesome.css" rel="stylesheet" />
-    <link href="/assets/css/solid.css" rel="stylesheet" />
-    <link href="/assets/css/brands.css" rel="stylesheet" />
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,900;1,400;1,500&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@400;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/6a2d4c7b09.js" crossorigin="anonymous"></script>
 
     <link href="styles/normalize.css" rel="stylesheet" />
-    <link href="styles/style.css?v=2025" rel="stylesheet" />
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/start-fest.css" rel="stylesheet" />
   </head>
 
-  <body>
-    <script src="scripts/nav.js" defer></script>
+<body>
+    <script src="scripts/nav.js"></script>
 
     <nav>
       <div class="logo">
-        <a href="/" aria-label="Start@FIT 2025 domovská stránka">
+        <a href="/" aria-label="Start@FIT 2026 domovská stránka">
           <svg
             xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
             xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -87,130 +82,90 @@
               />
             </g>
           </svg>
-          <h1>Start@FIT</h1>
         </a>
       </div>
-
       <button id="menuButton" onclick="toggleNav()" aria-label="Toggle menu">
         <i class="fa-solid fa-bars"></i>
       </button>
     </nav>
 
     <div id="menu" class="hidden top-margin">
-      <div class="menu-content">
-        <ul class="centering plain">
-          <a href="/#Program" onclick="toggleNav()">
-            <li>Přehled programu</li>
-          </a>
-          <hr />
-          <a href="ctvrtek"><li>Čtvrtek</li></a>
-          <a href="patek"><li>Pátek</li></a>
-          <a href="sobota"><li>Sobota</li></a>
-          <a href="nedele"><li>Neděle</li></a>
-          <!--<hr />
-          <a href="photos"><li>Fotografie z&nbsp;minulých let</li></a>-->
-          <hr />
-          <a href="https://prirucka.vut.cz/category/fit"><li>Příručka pro prváky</li></a>
-          <a href="https://su.fit.vut.cz/rozcestnik"><li>Rozcestník pro prváky</li></a>
-        </ul>
-      </div>
+
+        <div class="menu-content">
+            <ul class="centering plain">
+                <a href="index.html#Program" onclick="toggleNav()">
+                    <li>Přehled programu</li>
+                </a>
+                <hr />
+                <a href="ctvrtek.html"><li>Čtvrtek</li></a>
+                <a href="patek.html"><li>Pátek</li></a>
+                <a href="sobota.html"><li>Sobota</li></a>
+                <a href="nedele.html"><li>Neděle</li></a>
+                <a href="start-fest"><li>start-fest</li></a>
+                <hr>
+                <a href="photos.html"><li>Fotografie z&nbsp;minulých let</li></a>
+           </ul>
+        </div>
     </div>
 
-    <article>
-      <div class="section top-margin highlight">
-        <h2 class="day-title">
-          <a href="sobota"><i class="fa-solid fa-arrow-left"></i></a>
-          <span> Neděle </span>
-          <a href=""><i class="fa-solid fa-arrow-right invisible"></i></a>
-        </h2>
-
-        <p class="centering">13. září/septembra 2025</p>
-
-        <div class="inner justify">
-          <p>
-            Nedělní ráno začneme <b>snídaní se Studentskou unií</b> v&nbsp;8:30
-            v&nbsp;klubu
-            <a href="https://www.fit.vut.cz/fit/map/2/.cs?show=R212&big=1"
-              >U&nbsp;Kachničky</a
-            >. Přijďte si s&nbsp;námi dát čaj nebo kafíčko (výběrovku!)
-            a&nbsp;něco na zub.
-          </p>
-          <p>
-            V&nbsp;10:00 zahájíme hru <b>Brnění</b>, kde budete mít příležitost
-            prozkoumat to nejlepší město pro studium – Brno. Můžete se těšit na
-            procházku plnou zajímavých míst a&nbsp;(snad) zábavných úkolů.
-          </p>
-          <p>
-            V&nbsp;14:00 se sejdeme na nádvoří, kde bude StartFest
-          </p>
-        </div>
-      </div>
     
-    
-    <div class="section">
-        <div class="inner justify">
-          <h3>Brnění</h3>
-          <p>
-            Pojďme spolu brnět! Brnění je týmová procházka Brnem, při které navštívíte řadu 
-            zajímavých míst našeho města, zjistíte o&nbsp;nich pár informací a&nbsp;na každém najdete
-            odpověď na otázku. U&nbsp;každého stanoviště si taky uděláte <b>týmovou fotku</b>.
-            Vaše odpovědi dají dohromady tajenku, se kterou se vrátíte k&nbsp;FITu
-            do <b><a href="https://maps.app.goo.gl/rAvPZTs2NhFdMPG29">Božetěchova sadu</a></b> – nejrychlejší
-            týmy si zaslouží věčnou slávu, odměnu ale dostanou všichni, kteří celou tajenku vyplní.
-          </p>
-          <p>
-            Brnění zahájíme <b>v 11:00</b> 
-            v&nbsp;<a href="https://www.fit.vut.cz/fit/map/2/.cs?show=R211&big=1">malém 
-              sále klubu U&nbsp;Kachničky</a>. Dostanete zde mapu míst, popisky i&nbsp;hádanky do tajenky.
-            Nemusíte mít nějaký tým, poskládáte se na místě. Samozřejmě je povoleno používat jakékoliv 
-            dopravní prostředky včetně vlastních nohou a&nbsp;městské hromadné dopravy.
-          </p>
-
-          <br>
-          <h3>Feedback</h3>
-          <p>
-            Ještě než se vrhneš do svého nového života na VŠ, budeme moc vděční, když nám povíš, co si
-            o&nbsp;Start@FITu myslíš a&nbsp;jak bychom ho pro příští generace mohli dál zlepšit:
-          </p>
-        </div>
+    <header class="start-fest">
+        <h1>start-fest</h1>
+        <p class="centering tagline">
+            <strike>Tradiční čtyřdenní</strike> Jednodenní <strike>adaptační</strike> akce pro <strike>nastupující</strike> všechny studenty FIT VUT
+            <br>
+            13. září/septembra 2026 od 14:00
+        </p>
+        <br>
         <div class="centering">
-          <a href="/feedback" class="button"><i class="fa-solid fa-comment"></i>&nbsp;Feedback ke Startu</a>
+            <button onclick="scrollToProgram()">Program festivalu&nbsp;<i class="fa-solid fa-arrow-down"></i></button>
         </div>
-    </div>
+        
+    </header>
+    
+    <article class="start-fest">
+        
+        
+        <div class="section">
+            <div class="inner">
 
-    <div class="section" style="padding-top: 0;">
-        <div class="inner">
-            <div class="centering">
-                <a href="sobota" class="button"><i class="fa-solid fa-arrow-left"></i> Sobota</a>
+                <p>
+                    Ať jste noví prváci, zkušení druháci, projekty ošlehaní třeťáci, úplní dinosauři (rozumnějte studenti magistra nebo dokonce doktorandi) nebo absolventi, přijďte si s námi užít jedno příjemné odpoledne na fakultě než začne semestr.
+                </p>
+
+                <p>
+                    Budeme pro vás mít jídlo i pití, hromadu aktivit a talk show s akademiky.
+                </p>
+                    
+                <p>
+                    Jo a taky vystoupení studentských kapel 
+                    <a href="https://www.facebook.com/301band/" class="start-fest-title" target="_blank">301</a>,
+                    <a href="https://www.instagram.com/butmys" class="start-fest-title" target="_blank">BUŤ MYŠ</a>,
+                    <a href="https://www.demonsofdesire.cz/" class="start-fest-title" target="_blank">Demons of Desire</a> a&nbsp;
+                    <a href="https://abusedandneglected.com/" class="start-fest-title" target="_blank">Abused&nbsp;&&nbsp;Neglected</a>.
+                </p>
+
+                <p>Bude to fajn.</p>
+                <p>Tak koukejte dorazit.</p>
+
+            </div>
+
+            
+        </div>
+
+        <div class="section highlight" >
+            <div class="inner">
+                <h2 id="Program">Program start-festu</h2>
+               <div class="centering inner">
+                    <p>
+                        Detaily programu budeme postupně zveřejňovat. <br>
+                        Nezapomeň sledovat tento web a náš <a href="https://www.instagram.com/sufitvut" target="_blank">instagram</a>!
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="section" style="padding-top: 0;">
-        <div class="inner">
-          <div class="photo">
-            <img loading="lazy" src="img/photos/brno.jpg" />
-          </div>
-        </div>
-    </div>
+        
     </article>
+</body>
 
-    <footer class="highlight centering">
-      <p>Start@FIT pro tebe pořádá Studentská unie FIT VUT v&nbsp;Brně.</p>
-      <div class="inner centering socials">
-        <a href="https://su.fit.vut.cz/" target="_blank">
-          <i class="fa-solid fa-globe"></i>
-          su.fit.vut.cz
-        </a>
-        <a href="https://www.instagram.com/sufitvut" target="_blank">
-          <i class="fa-brands fa-instagram"></i>
-          @sufitvut
-        </a>
-        <a href="https://www.facebook.com/SUFITVUT/" target="_blank">
-          <i class="fa-brands fa-facebook"></i>
-          Studentská unie FIT VUT v&nbsp;Brně
-        </a>
-      </div>
-    </footer>
-  </body>
 </html>

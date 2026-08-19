@@ -26,18 +26,17 @@
   text-transform: lowercase;
 }
 .start-fest .highlight {
-  background: #1b314f;
+  background: #2596be;
 }
 
 header.start-fest {
-  background: #1b314f;
-  background-image: none;
+  background: #0c6a81;
   color: #fafafa;
   text-shadow: 2px 2px 3px rgba(6, 8, 12, 0.2);
 }
 
 nav, #menu {
-  background: #1b314f !important;
+  background: #2596be !important;
 }
 
 .start-fest-title {
