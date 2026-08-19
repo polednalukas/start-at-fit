@@ -18,7 +18,6 @@ $su-shadow: adjust-color($color: $su-black, $alpha: -0.8);
 }
 
 .start-fest {
-    
     h1 {
         @include title(3rem);
     }
@@ -41,6 +40,11 @@ header.start-fest {
     background-image: none;
     color: $su-white;
     text-shadow:  2px 2px 3px $su-shadow;
+
+    s {
+        font-weight: 300;
+        color: #d1f0f9;
+    }
 }
 
 nav, #menu {

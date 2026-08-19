@@ -5,7 +5,8 @@
   padding-top: 0rem;
   padding-bottom: 1rem;
   margin: 0;
-  text-transform: lowercase; }
+  text-transform: lowercase;
+}
 .start-fest h2 {
   text-align: center;
   font-family: "IBM Plex Mono", monospace;
@@ -13,7 +14,8 @@
   padding-top: 0rem;
   padding-bottom: 1rem;
   margin: 0;
-  text-transform: lowercase; }
+  text-transform: lowercase;
+}
 .start-fest h3 {
   text-align: center;
   font-family: "IBM Plex Mono", monospace;
@@ -21,20 +23,29 @@
   padding-top: 0rem;
   padding-bottom: 1rem;
   margin: 0;
-  text-transform: lowercase; }
+  text-transform: lowercase;
+}
 .start-fest .highlight {
-  background: #0c6a81; }
+  background: #0c6a81;
+}
 
 header.start-fest {
   background: #0c6a81;
   background-image: none;
   color: #fafafa;
-  text-shadow: 2px 2px 3px rgba(6, 8, 12, 0.2); }
+  text-shadow: 2px 2px 3px rgba(6, 8, 12, 0.2);
+}
+header.start-fest s {
+  font-weight: 300;
+  color: #d1f0f9;
+}
 
 nav, #menu {
-  background: #0c6a81 !important; }
+  background: #0c6a81 !important;
+}
 
 .start-fest-title {
-  text-transform: initial !important; }
+  text-transform: initial !important;
+}
 
 /*# sourceMappingURL=start-fest.css.map */
