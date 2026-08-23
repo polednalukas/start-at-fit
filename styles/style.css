@@ -63,7 +63,6 @@ button,
   font-weight: 600;
   letter-spacing: 1px;
   text-decoration: none;
-  transition: all ease-out 0.2s;
 }
 button:hover, button:active,
 .button:hover,
@@ -85,6 +84,10 @@ button.expanded,
   border-bottom: none;
   border-right: none;
   border-top-right-radius: 0;
+  transition: all ease-out 0.2s;
+}
+button,
+.button {
   transition: all ease-out 0.2s;
 }
 
@@ -233,7 +236,6 @@ nav ul li {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1.5rem;
-  animation: slideMenu 0.5s ease-in-out;
 }
 #menu hr {
   width: 40%;
@@ -251,6 +253,9 @@ nav ul li {
 }
 #menu a:hover {
   opacity: 0.85;
+}
+#menu {
+  animation: slideMenu 0.5s ease-in-out;
 }
 #menu .small {
   font-family: "Dosis", sans-serif;
@@ -289,6 +294,9 @@ header .tagline {
   font-size: 1.3rem;
   margin-top: 2.5rem;
   padding: 0 0.5rem;
+}
+header .tagline .skip {
+  margin-top: 1rem;
 }
 header .logo {
   margin-bottom: 4rem;
